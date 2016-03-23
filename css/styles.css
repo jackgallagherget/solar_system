@@ -1,0 +1,46 @@
+body {
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+#planetTable  {
+    background-color: #000000;
+    padding: 5px;
+    margin: auto;
+}
+
+#planetTableHeaderText {
+    align-content: center;
+    align-items: center;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+#page {
+    background-image: url('../img/space.jpg');
+}
+
+h1, h2, p, a {
+    color: white;
+    background-color: transparent;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    width: auto;
+}
+
+img {
+    resize: horizontal;
+}
+
+#container {
+    resize: both;
+}

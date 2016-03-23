@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" id="page">
+    <head>
+        <title>Solar System</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="https://code.jquery.com/jquery-1.12.2.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/scripts/planets.json"></script>
+		<script src="js/scripts/scripts.js"></script>
+	</head>
+    <body>
+        <!-- Start Body -->
+        <!-- Start Container -->
+        <div id="container">
+            <div id="mainTitle"><h1>Solar System</h1></div>
+
+            <!-- Solar System Image -->
+            <img id="solarSysImg" src="img/universe.jpg" alt="Solar System" width="40%"/>
+
+            <!-- Start Description -->
+            <div>
+                <h2>Description</h2>
+                <p id="desc">
+                    The Solar System comprises the Sun and the gravitationally bound objects that orbit it,
+                    either directly or indirectly. Of those objects that orbit the Sun directly,
+                    the largest eight are the planets, with the remainder being significantly smaller objects,
+                    such as dwarf planets and small Solar System bodies.
+                </p>
+            </div>
+            <!-- End Description -->
+
+            <div id="planetTableDiv">
+                <table id="planetTable">
+                    <th id = "planetTableHeader" colspan="9" >
+                            <a href="#" id="planetTableHeaderText">
+                            Click to Show Planet Info!
+                            </a>
+                    </th>
+                    <!--below tablebody is where the script will look to append table cells -->
+                    <tbody id="planetTableBody">
+                    </tbody>
+                </table>
+            </div>
+
+            <hr />
+
+            <!-- Start Footer -->
+            <div id="footer">
+                <p>All content provided by <span><a href="https://www.wikipedia.org" target="new" id="wiki">Wikipedia</a></span>.</p>
+            </div>
+            <div id="ufo" style="position:relative; display:none; width:100px" width="100px">
+            	<img src="img/ufo.png" width="100px"/>
+            </div>
+            <!-- End Footer -->
+        </div>
+        <!-- End Container -->
+        <!-- End Body -->
+    </body>
+</html>
