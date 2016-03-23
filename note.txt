@@ -1,0 +1,1 @@
+I used HTML from your table examples from class 2 as a base. I populated the tables with javascript and a json file with data about the planets. I tried out some css formatting as well.
