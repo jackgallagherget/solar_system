@@ -56,13 +56,13 @@ $(document).ready(function () {
                 }, time);
                 time += 250;
             });
-            $('#planetTableHeaderText').text('Click to Hide Planet Info!');
+            $('#planetTableHeaderText').text('Click to Hide Planet Info');
             animate();
 
 
         } else {
             //<a href="#" id="planetsHeader">Click to Learn More About The Planets!
-            $('#planetTableHeaderText').text('Click to Show Planet Info!');
+            $('#planetTableHeaderText').text('Click to Show Planet Info');
             planetTable.empty();
         }
     });
