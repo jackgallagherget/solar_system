@@ -28,7 +28,7 @@ $(document).ready(function () {
                     a = document.createElement('a');
 
                 //set up the image associated with the planet
-                img.src = 'img/' + planet.name + '.jpg';
+                img.src = 'img/' + planet.name.toLowerCase() + '.jpg';
                 img.width = 100;
                 img.height = 100;
 
